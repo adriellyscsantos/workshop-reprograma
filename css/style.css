@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+   
+ }
+ 
+ body{
+     
+     font-family: 'Poppins', sans-serif;
+     margin: 0;
+ }
+ 
+ h1{
+     font-size: 50px;
+ }
+ h1, h2, h3{
+     font-family: 'Oswald', sans-serif; 
+ }
+ 
+ /* HEADER */
+ header{
+     background-image: url('/img/banner.png');
+     height: 80vh;
+     background-size: cover;
+     display: flex;
+    
+ 
+ }
+ 
+ .header-info{
+     text-align: center;
+     margin: auto;
+     color: #ffffff;
+ }
+ 
+ .header-info p{
+     color:aqua;
+     font-size: 16px;
+ }
+ 
+ 
+ 
+ h2{
+     text-align: center;
+     font-size: 2rem;
+     color: blueviolet;
+     
+ }
+ 
+ 
+ .sobre, .redes {
+     max-width: 80vw;
+     margin: auto;
+   }
+   .sobre-mim, .redes-sociais {
+     display: flex;
+     justify-content: space-around;
+   }
+   
+   .sobre-mim_info {
+     width: 70vw;
+   }
+   
+   .sobre-mim_habilidades {
+     width: 30vw;
+     margin-left: 2rem;
+   }
+  
+    .header-info a{
+     background-color: #fff;
+     padding: 10px;
+     text-transform: uppercase;
+     color: blueviolet;
+     border-radius: 5rem;
+     border: 0;
+     font-weight: bold;
+     cursor: pointer;
+     text-decoration: none;
+     
+   
+   }
+
+  
+   .redes, .sobre{
+       margin-top: 3rem;
+       margin-bottom: 3rem;
+ 
+   }
+ 
+   .redes-sociais_facebook, 
+   .redes-sociais_linkedin, 
+   .redes-sociais_github,
+   .redes-sociais_twitter{
+ 
+     background-color: blueviolet;
+     text-align: center;
+     padding: 1rem 4rem;
+     
+ 
+   }
+   .redes-sociais p{
+       color: #fff;
+   }
+ 
+   .redes-sociais a{
+       text-decoration: none;
+   }
+ 
+   .redes-sociais img{
+       max-width: 2rem;
+       max-height: 2rem;
+   }
+   .sobre-mim_info a{
+     
+     background-color: blueviolet;
+     border: unset;
+     padding: 10px;
+     text-transform: uppercase;
+     color: #fff;
+     border-radius: 3rem;
+     font-weight: bold;
+     cursor: pointer;
+     text-decoration: none;
+   
+   }
+ 
+   .sobre-mim_info a:hover{
+     color: blueviolet;
+     background-color: #fff;
+     border: 1px solid blueviolet;
+     transition: ease-in 0.2s;
+     
+   }
+ 
+   footer{
+       background-color: blueviolet;
+       padding: 2rem 0;
+       margin: 2rm 2rm;
+   }
+ 
+   footer p{
+     color: #fff;
+     text-align: center;
+   }
